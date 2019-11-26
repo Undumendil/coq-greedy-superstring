@@ -1,0 +1,11 @@
+```
+opam repo add coq-released https://coq.inria.fr/opam/released
+```
+
+Set SWITCH (in Makefile) to the opam switch you will use.
+
+Build requirements:
+coq 8.8.2 (some packages will not work with newer versions)
+coq-free-groups
+coq-graph-basics
+coq-hammer
